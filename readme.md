@@ -4,7 +4,7 @@ Create a console application to manage a Checking account and Savings account. I
 
 When the application exits, write all Checking and Savings transactions to a text file.
 
-** Include the following features: **
+**Include the following features:**
 
 -   View Account Holder Information - such as the account holder's name and account number.
 -   View Checking account balance
@@ -21,7 +21,15 @@ When you click the blue Run button, display the message:
 
 Upon Enter, the menu displays:
 
-`Please select an option below: [I] View Account Holder Information [CB] Checking - View Balance [CD] Checking - Deposit Funds [CW] Checking - Withdraw Funds [SB] Savings - View Balance [SD] Savings - Deposit Funds [SW] Savings - Withdraw Funds [X] Exit`
+Please select an option below:
+- [I] View Account Holder Information 
+- [CB] Checking - View Balance 
+- [CD] Checking - Deposit Funds 
+- [CW] Checking - Withdraw Funds 
+- [SB] Savings - View Balance 
+- [SD] Savings - Deposit Funds 
+- [SW] Savings - Withdraw Funds 
+- [ X ] Exit
 
 When you enter one of the key sequences identified in brackets, that feature is executed.
 
