@@ -7,10 +7,8 @@ using System;
 internal class AccountHolder
 {
     private int accountNumber;
-    private string firstName;
-    private string lastName;
-    private BankingAccount checkingAccount;
-    private BankingAccount savingsAccount;
+    private string firstName, lastName;
+    private BankingAccount checkingAccount, savingsAccount;
 
     /// <summary>
     /// Class constructor.
