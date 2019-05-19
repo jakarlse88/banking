@@ -34,6 +34,17 @@
             <param name="fundsToBeWithdrawn">The amount of money to be withdrawn.</param>
             </summary>
         </member>
+        <member name="T:BankingMenuHandler">
+            <summary>
+            Utility class for banking menu operations.
+            </summary>
+        </member>
+        <member name="M:BankingMenuHandler.ExecuteBankingMenu(AccountHolder)">
+            <summary>
+            Prints the banking menu to terminal, and handles user choice.
+            </summary>
+            <param name="currentUser">The current user, on whom operations will be executed.</param>
+        </member>
         <member name="M:banking.Program.InitialiseProgram">
             <summary>
             Initialises the program's global state by populating the currentUser
