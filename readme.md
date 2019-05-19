@@ -29,7 +29,7 @@ Please select an option below:
 - [SB] Savings - View Balance 
 - [SD] Savings - Deposit Funds 
 - [SW] Savings - Withdraw Funds 
-- [X] Exit
+- [ X ] Exit
 
 When you enter one of the key sequences identified in brackets, that feature is executed.
 
