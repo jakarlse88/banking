@@ -1,0 +1,13 @@
+/home/jkarlsen/code/banking/bin/Debug/netcoreapp2.2/banking.deps.json
+/home/jkarlsen/code/banking/bin/Debug/netcoreapp2.2/banking.runtimeconfig.json
+/home/jkarlsen/code/banking/bin/Debug/netcoreapp2.2/banking.runtimeconfig.dev.json
+/home/jkarlsen/code/banking/bin/Debug/netcoreapp2.2/banking.dll
+/home/jkarlsen/code/banking/bin/Debug/netcoreapp2.2/banking.pdb
+/home/jkarlsen/code/banking/obj/Debug/netcoreapp2.2/banking.csprojAssemblyReference.cache
+/home/jkarlsen/code/banking/obj/Debug/netcoreapp2.2/banking.csproj.CoreCompileInputs.cache
+/home/jkarlsen/code/banking/obj/Debug/netcoreapp2.2/banking.AssemblyInfoInputs.cache
+/home/jkarlsen/code/banking/obj/Debug/netcoreapp2.2/banking.AssemblyInfo.cs
+/home/jkarlsen/code/banking/obj/Debug/netcoreapp2.2/banking.dll
+/home/jkarlsen/code/banking/obj/Debug/netcoreapp2.2/banking.pdb
+/home/jkarlsen/code/banking/bin/Debug/netcoreapp2.2/banking.xml
+/home/jkarlsen/code/banking/obj/Debug/netcoreapp2.2/banking.xml

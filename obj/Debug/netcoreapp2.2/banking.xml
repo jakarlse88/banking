@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>banking</name>
+    </assembly>
+    <members>
+        <member name="T:AccountHolder">
+            <summary>
+            The AccountHolder class contains information about an account holder,
+            including name, account number, and references to his/her savings and checking accounts. 
+            </summary>
+        </member>
+        <member name="M:AccountHolder.#ctor(System.Int32,System.String,System.String)">
+            <summary>
+            Class constructor.
+            <param name="accountNumber">Used to assign an account number.</param>
+            <param name="firstName">Used to assign a first name.</param>
+            <param name="lastName">Used to assign a last name.</param>
+            <remarks>
+            In the current implementation, the savings/checking accounts are accessed via 
+            objects instantiated from this
+            </remarks>
+            </summary>
+        </member>
+        <member name="M:BankingAccount.DepositFunds(System.Decimal)">
+            <summary>
+            Deposits funds to the account.
+            <param name="fundsToBeDeposited">The amount of money to be withdrawn.</param>
+            </summary>
+        </member>
+        <member name="M:BankingAccount.WithdrawFunds(System.Decimal)">
+            <summary>
+            Withdraws funds from the account.
+            <param name="fundsToBeWithdrawn">The amount of money to be withdrawn.</param>
+            </summary>
+        </member>
+        <member name="M:banking.Program.InitialiseProgram">
+            <summary>
+            Initialises the program's global state by populating the currentUser
+            field with a dummy object.
+            </summary>
+        </member>
+        <member name="M:banking.Program.ExecuteProgram">
+            <summary>
+            Executes the program.
+            </summary>
+        </member>
+    </members>
+</doc>
