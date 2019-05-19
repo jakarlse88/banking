@@ -31,7 +31,7 @@ internal class BankingAccount : IBankingAccount
         if (fundsToBeDeposited > 0)
         {
             accountBalance += fundsToBeDeposited;
-            Console.WriteLine($"${fundsToBeDeposited} were successfully deposited to the account");
+            Console.WriteLine($"{fundsToBeDeposited:c} were successfully deposited to the account");
         }
         else
         {
@@ -48,7 +48,7 @@ internal class BankingAccount : IBankingAccount
         if (fundsToBeWithdrawn < accountBalance)
         {
             accountBalance -= fundsToBeWithdrawn;
-            Console.WriteLine($"${fundsToBeWithdrawn} were successfully withdrawn from the account.");
+            Console.WriteLine($"{fundsToBeWithdrawn:c} were successfully withdrawn from the account.");
         }
         else
         {

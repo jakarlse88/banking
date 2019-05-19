@@ -46,8 +46,6 @@ static class BankingMenuHandler
         logMessage += $"{operationType} - {bankingOptions[operationType]}";
         logMessage += "\n";
 
-        Console.WriteLine(logMessage);
-
         if (!File.Exists("log.txt"))
         {
             using (StreamWriter sw = File.CreateText("log.txt"))
@@ -70,8 +68,6 @@ static class BankingMenuHandler
         logMessage += $"{operationType} - {bankingOptions[operationType]} ";
         logMessage += $"Transaction amount: ${transactionAmount}";
         logMessage += "\n";
-
-        Console.WriteLine(logMessage);
 
         if (!File.Exists("log.txt"))
         {
@@ -103,7 +99,7 @@ static class BankingMenuHandler
         BankingAccount currentAccount = currentUser.CheckingAccount;
 
         Console.WriteLine("");
-        Console.WriteLine($"{currentUser.LastName}, {currentUser.FirstName}'s checking account has a balance of ${currentAccount.ViewBalance()}");
+        Console.WriteLine($"{currentUser.LastName}, {currentUser.FirstName}'s checking account has a balance of {currentAccount.ViewBalance():c}");
         Console.WriteLine("");
 
         WriteResultToFile(currentUser, "CB");
@@ -142,7 +138,7 @@ static class BankingMenuHandler
         BankingAccount currentAccount = currentUser.SavingsAccount;
 
         Console.WriteLine("");
-        Console.WriteLine($"{currentUser.LastName}, {currentUser.FirstName}'s savings account has a balance of ${currentAccount.ViewBalance()}");
+        Console.WriteLine($"{currentUser.LastName}, {currentUser.FirstName}'s savings account has a balance of {currentAccount.ViewBalance():c}");
         Console.WriteLine("");
 
         WriteResultToFile(currentUser, "SB");
